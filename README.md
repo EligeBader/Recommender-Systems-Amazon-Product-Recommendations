@@ -13,7 +13,7 @@ The main goal of this project is to build a book recommender system using collab
 ## 💾 Dataset
 The datasets used in this project include:
 - `Books.csv`: Contains book ratings and information.
-- `popular_books.csv`: Created by me after filtering popular books.
+- `popular_books.csv`: Created by me after filtering books.
 - `um.csv`: The utility matrix of user ratings.
 - `um_repro.csv`: Reconstructed utility matrix using SVD.
 
