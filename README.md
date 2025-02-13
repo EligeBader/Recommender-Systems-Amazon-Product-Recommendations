@@ -70,7 +70,6 @@ For this project, I used the following tools and technologies:
     - U_sigma_Vt.pickle
     - recommender_books_svd.pickle
   - README.md
-  - requirements.txt
 ```
 
 ## 🎯 Results
@@ -84,18 +83,7 @@ To further enhance this project, I can explore the following:
   - Incorporate content-based filtering to improve recommendations.
 
 - **Optimize Hyperparameters**:
-  - Use techniques like grid search or Bayesian optimization to find the best hyperparameters for the models.
+  - Use techniques like grid search to find the best hyperparameters for the models.
 
 - **Feature Engineering**:
   - Explore additional text preprocessing techniques and feature engineering methods to improve model performance.
-  - Use domain-specific knowledge to create new features from the text data.
-
-- **Data Augmentation**:
-  - Apply data augmentation techniques to increase the diversity and size of the training dataset.
-
-- **Model Interpretability**:
-  - Implement methods to interpret and explain the model's predictions, such as SHAP or LIME.
-
-
-## 🙏 Acknowledgements
-A big thank you to the authors and maintainers of the libraries and tools used in this project. This project wouldn't have been possible without their contributions.
