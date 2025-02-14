@@ -75,6 +75,9 @@ For this project, I used the following tools and technologies:
 ## 🎯 Results
 After training the models, the results are saved in the `models/` directory. I evaluated the performance of my models using RMSE and explained variance ratio. The Streamlit web app provides an interactive way for users to get book recommendations.
 
+## 📊 Graph of Results
+Below is a graphical representation of the performance of different recommendation models:
+
 ## 🌟 Improvements
 To further enhance this project, I can explore the following:
 
