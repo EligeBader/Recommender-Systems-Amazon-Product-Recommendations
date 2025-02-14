@@ -76,7 +76,9 @@ For this project, I used the following tools and technologies:
 After training the models, the results are saved in the `models/` directory. I evaluated the performance of my models using RMSE and explained variance ratio. The Streamlit web app provides an interactive way for users to get book recommendations.
 
 ## 📊 Graph of Results
-Below is a graphical representation of the performance of different recommendation models:
+Below is a graphical representation that compares the RMSE and explained variance for different models used in the Amazon Books Recommender System:
+![RMSE vs Variance](https://github.com/EligeBader/Recommender-Systems-Amazon-Product-Recommendations/blob/main/Amazon%20Products%20Recommeneder%20System.png)
+
 
 ## 🌟 Improvements
 To further enhance this project, I can explore the following:
