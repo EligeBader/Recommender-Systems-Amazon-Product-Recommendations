@@ -31,6 +31,23 @@ st.title("Book Recommendation System")
 user_id = st.text_input("Enter your user ID:")
 
 def get_recommendations(user_id, popular_books, um_repro, n):
+
+    '''
+    This function generates book recommendations for a given user based on their past consumption and a user-item matrix.
+    
+    Parameters:
+    - user_id: The ID of the user for whom recommendations are to be generated.
+    - popular_books: A DataFrame containing information about popular books, including user consumption data.
+    - um_repro: A user-item matrix where rows represent users and columns represent books, with values indicating user preferences.
+    - n: The number of recommendations to generate.
+    
+    Steps:
+    1. Identify the books that the user has already consumed by filtering the popular_books DataFrame using the user_id.
+    2. Retrieve the user's book preferences from the um_repro matrix.
+    3. Sort the user's book preferences in descending order to prioritize higher preferences.
+    4. Remove the books that the user has already consumed from the list of preferences.
+    5. Return the top 'n' book recommendations for the user.
+    '''
     consumed = popular_books.loc[popular_books['user_id'] == user_id, 'parent_asin']
     user_books = um_repro.loc[user_id, :]
     user_books = user_books.sort_values(ascending=False)
