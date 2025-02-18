@@ -1,3 +1,7 @@
+''' In this notebook, I developed an interactive book recommendation system using Streamlit and Singular Value 
+Decomposition (SVD). The app provides personalized book suggestions by analyzing user preferences and predicting top 
+recommendations. This project aims to enhance users' reading experiences through tailored book recommendations.'''
+
 
 import streamlit as st
 import pickle
